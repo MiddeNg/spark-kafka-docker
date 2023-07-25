@@ -1,8 +1,13 @@
-kafka
+# build
+
+## kafka
+
 1. docker-compose up -d 
 2. pipenv install && pipenv shell
 3. run kafka script
-spark
+
+## spark
+
 1. docker build -t cluster-apache-spark:3.4.1 .
 2. docker-compose up -d 
 3. docker ps
